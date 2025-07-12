@@ -96,7 +96,6 @@ function renderTable(data, symbol, currency) {
   tableHTML += '</tbody></table>';
   document.getElementById('cryptoTable').innerHTML = tableHTML;
 
-  // Update button label
   const btn = document.getElementById('showMoreBtn');
   if (btn) {
     btn.textContent = showingMore ? 'Show Less' : 'Show More';
@@ -158,5 +157,4 @@ function filterCryptos() {
   toggleShowMoreButton(filteredCoins.length > 10);
 }
 
-// Initial load
 fetchCryptoData();

@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- Navbar -->
+
   <nav class="navbar">
     <div class="nav-container">
       <h2 class="logo" onclick="goHome()" style="cursor: pointer;">CryptoFlow</h2>
@@ -26,7 +26,6 @@
     </div>
   </nav>
 
-  <!-- Search Bar -->
   <div class="search-bar">
     <input
       type="text"
@@ -36,14 +35,12 @@
     <button onclick="filterCryptos()">Search</button>
   </div>
 
-  <!-- Main Content -->
   <div class="container">
     <h1>Live Crypto Prices</h1>
     <div id="cryptoTable">
       <p>Loading data...</p>
     </div>
 
-    <!-- Show More / Show Less Button -->
     <div id="showMoreContainer" style="display: none;">
       <button id="showMoreBtn" onclick="toggleShowMore()">Show More</button>
     </div>
