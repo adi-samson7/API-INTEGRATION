@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CryptoFlow - Live Crypto Tracker</title>
+  <link rel="icon" href="assets/cflow_logo.jpg" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <h2 class="logo" onclick="goHome()" style="cursor: pointer;">CryptoFlow</h2>
+
+      <div class="nav-right">
+        <div class="currency-selector">
+          <label for="currency">Currency:</label>
+          <select id="currency" onchange="fetchCryptoData()">
+            <option value="usd" selected>USD ($)</option>
+            <option value="eur">EUR (€)</option>
+            <option value="inr">INR (₹)</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Search Bar -->
+  <div class="search-bar">
+    <input
+      type="text"
+      id="searchInput"
+      placeholder="Search for a cryptocurrency..."
+    />
+    <button onclick="filterCryptos()">Search</button>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container">
+    <h1>Live Crypto Prices</h1>
+    <div id="cryptoTable">
+      <p>Loading data...</p>
+    </div>
+
+    <!-- Show More / Show Less Button -->
+    <div id="showMoreContainer" style="display: none;">
+      <button id="showMoreBtn" onclick="toggleShowMore()">Show More</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
