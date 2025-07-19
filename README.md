@@ -34,6 +34,9 @@ and dynamic UI rendering.
 
 It is implemented purely using vanilla HTML, CSS, and JavaScript.
 
+<img width="1920" height="1080" alt="Screenshot (243)" src="https://github.com/user-attachments/assets/6919669f-273a-48d9-b034-4f48beed8478" />
+
+
 Key Features
 1. Live Crypto Data via API
 
@@ -107,3 +110,8 @@ It simulates a real-world scenario where financial data needs to be fetched, pro
 
 This task not only strengthens understanding of API handling and asynchronous programming in JavaScript but also emphasizes building interactive and 
 user-friendly interfaces without relying on heavy frontend libraries.
+
+OUTPUT:
+<img width="1920" height="1080" alt="Screenshot (243)" src="https://github.com/user-attachments/assets/b373e104-7be9-4bd9-9332-ee170f35f7ea" />
+<img width="1920" height="1080" alt="Screenshot (244)" src="https://github.com/user-attachments/assets/b2051b1e-1c61-43f4-af2f-5acc76d38984" />
+<img width="1920" height="1080" alt="Screenshot (247)" src="https://github.com/user-attachments/assets/786a5663-bafa-47e4-95f1-7932b207f38f" />
